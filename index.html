@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice-Mail</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+        *{ 
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(277deg, #4e84e4, #CFDEF3);
+        }
+        .container{
+            max-width: 100vh;
+            max-height: 100vh;
+            margin: 10px;
+            border: 2px solid black;
+            display: flex;
+        }
+        img{
+            display: flex;
+            justify-content: center;
+            width: 75px;
+            object-fit: contain;
+            height: 85px;
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+        .nav{
+            background-color: red;
+            width: 50vh;
+            padding: 10px;
+            margin: 10px;
+            height: 85vh;
+        }
+        ul{
+            list-style-type: none;
+            text-align: center;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        li{
+            padding: 5px;
+            margin: 10px;
+            border: 2px black solid;
+        }
+        .left{
+            border: 2px black  solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                <img src="/static/login_background.jpeg" alt="Logo">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Send Email</a></li>
+                    <li><a href="#">Read Email</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul> 
+            </div>
+        </div>
+        <div class="right">
+            <header>Voice-Mail System</header>
+        </div>
+    </div>
+</body>
+</html>
