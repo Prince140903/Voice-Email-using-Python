@@ -3,8 +3,8 @@ import easyimap as e
 import smtplib
 import pyttsx3
 
-username = "gamingbuddies2021@gmail.com"
-password = "Reliance$321"
+username = "Your Username"
+password = "Your Password"
 
 r = sr.Recognizer()
 
@@ -33,7 +33,7 @@ def listen():
 
 def sendmail():
 
-    recepient = "aadityarevandkar@gmail.com"
+    recepient = "Recipient Email address"
 
     str = "Please speak body of mail"
     speak(str)
